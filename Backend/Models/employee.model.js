@@ -6,7 +6,7 @@ const employeeSchema = mongoose.Schema({
     email: {type:String , required:true},
     phone: {type:Number},
     age: {type:Number},
-    // avatar: {type:String}
+    avatar: {type:String}
 },{
     timestamps:true,
     versionKey:false
